@@ -80,6 +80,31 @@ Terminal and command line
 .about .terminal h4{
 
   color: #00ff00;
+  top: 10%;
+text-align: center;
+  align-content: center;
+
+}
+.skills .terminal h4{
+
+  color: #00ff00;
+  top: 2%;
+text-align: center;
+  align-content: center;
+
+}
+.resume .terminal h4{
+
+  color: #00ff00;
+  top: 2%;
+text-align: center;
+  align-content: center;
+
+}
+
+.portfolio .terminal h4{
+
+  color: #00ff00;
   top: 2%;
 text-align: center;
   align-content: center;
@@ -199,6 +224,7 @@ text-align: center;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  
 }
 
 .nav-menu a i,
@@ -264,7 +290,7 @@ text-align: center;
   
 }
 
-#hero:before {
+.home:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
@@ -275,12 +301,27 @@ text-align: center;
   z-index: 1;
 }
 
+
+.about .hero-container{
+  color: white;
+  font-weight: 600px;
+  align-items: center;
+  text-shadow: #00ff00;
+  font-size: 32px;
+  
+}
+.about .hero-container p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
 .section-title{
 
   color: white;
 }
 
-#hero .hero-container {
+.home .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
